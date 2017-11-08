@@ -1,0 +1,78 @@
+<!--<style>
+        body{
+            background: none;
+        }
+        .loading-container .loading{
+            position: fixed;
+            top: 43px;
+            width: 100%;
+            background-color: rgba(200,80,0,.7);
+        }
+        @media (max-width: 680px){
+            .modal {
+                top: 50%;
+                left: 55%;
+                min-height: 100px;
+                width:230px;
+                height:100px;
+                border-radius: 12px;
+                overflow: hidden;
+                transform:translate(-135px,-85px) !important;
+                background-color: rgba(0,0,0,0.8);
+
+            }
+            .modal-backdrop-bg {
+                -webkit-transition: opacity 300ms ease-in-out;
+                transition: opacity 300ms ease-in-out;
+                background-color: #000;
+                opacity: .5;
+            }
+        }
+        .modal-body{ height: 190px;}
+        .modal-footer{ padding: 0; border-bottom: none;}
+        .modal-footer .button{ color: dodgerblue; padding: 0; margin: 0;}
+        .item-body p{
+            margin: 0;
+        }
+        .set-button{
+            height: 30px;
+            line-height: 30px;
+            min-height: 30px;
+            margin: 0;
+            background-color: #fff;
+        }
+
+	</style>-->
+<div ng-controller="shopCon">
+	<div class="bar bar-header">
+		<button class="button icon ion-ios-arrow-back button-clear" ng-click="back()"></button>
+		<h2 class="title">我要开店</h2>
+	</div>
+	<div class="content has-header has-footer scroll scroll-content" style="overflow-y: scroll">
+		<img class="full-image" src="img/xyp-shop-assets/banner.png" alt="">
+		<div class="list">
+			<label class="item item-input">
+	            <span class="input-label">姓名</span>
+	            <input type="text" placeholder="请写真是姓名">
+	        </label>
+				<label class="item item-input">
+	            <span class="input-label">电话</span>
+	            <input type="password" placeholder="点击完善">
+	        </label>
+				<label class="item item-input">
+	            <span class="input-label">店铺名称</span>
+	            <input type="password" placeholder="点击完善">
+	        </label>
+				<label class="item item-input">
+	            <span class="input-label">店铺地址</span>
+	            <input type="password" placeholder="点击完善">
+	        </label>
+		</div>
+		<button class="button button-block button-positive button-royal" ng-click="openModal()">
+	       提交
+	    </button>
+	</div>
+	<button class="button button-block button-positive button-royal">
+    	提交
+	</button>
+</div>

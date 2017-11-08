@@ -1,0 +1,118 @@
+<div class="person">
+<div class="bar bar-header lyj-top">
+ <i class="button icon-left button-clear button-light button-small ion-ios-arrow-back" ng-click="back()"></i>
+ <h1 class="title">商界精英</h1>
+</div>
+<div class="content has-header scroll scroll-content" style="overflow-y: scroll;">
+<div class="row">
+	<div class="col text-center">
+	<img src="img/lyj-mingxiang.png" alt="" />
+	<p>王明祥</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-zhenhua.png" alt="" />
+	<p>刘振华</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-weidong.png" alt="" />
+	<p>杨伟东</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-xiangdong.png" alt="" />
+	<p>杨向东</p>
+</div>
+</div>
+<div class="row">
+<div class="col text-center">
+	<img src="img/lyj-wuchang.png" alt="" />
+	<p>张五常</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-huateng.png" alt="" />
+	<p>马化腾</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-bafei.png" alt="" />
+	<p>巴菲特</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-chuanzhi.png" alt="" />
+	<p>柳传志</p>
+</div>
+</div>
+<div class="row">
+	<div class="col text-center">
+	<img src="img/lyj-mingxiang.png" alt="" />
+	<p>王明祥</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-zhenhua.png" alt="" />
+	<p>刘振华</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-weidong.png" alt="" />
+	<p>杨伟东</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-xiangdong.png" alt="" />
+	<p>杨向东</p>
+</div>
+</div>
+<div class="row">
+<div class="col text-center">
+	<img src="img/lyj-wuchang.png" alt="" />
+	<p>张五常</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-huateng.png" alt="" />
+	<p>马化腾</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-bafei.png" alt="" />
+	<p>巴菲特</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-chuanzhi.png" alt="" />
+	<p>柳传志</p>
+</div>
+</div>
+<div class="row">
+	<div class="col text-center">
+	<img src="img/lyj-mingxiang.png" alt="" />
+	<p>王明祥</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-zhenhua.png" alt="" />
+	<p>刘振华</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-weidong.png" alt="" />
+	<p>杨伟东</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-xiangdong.png" alt="" />
+	<p>杨向东</p>
+</div>
+</div>
+<div class="row">
+<div class="col text-center">
+	<img src="img/lyj-wuchang.png" alt="" />
+	<p>张五常</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-huateng.png" alt="" />
+	<p>马化腾</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-bafei.png" alt="" />
+	<p>巴菲特</p>
+</div>
+<div class="col text-center">
+	<img src="img/lyj-chuanzhi.png" alt="" />
+	<p>柳传志</p>
+</div>
+</div>
+</div>
+</div>	
+		
+

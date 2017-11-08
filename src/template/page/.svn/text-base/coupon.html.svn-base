@@ -1,0 +1,11 @@
+
+<div ng-controller="couponCtrl">
+    <div class="bar bar-header hzp-yl-header">
+        <button class="button button-clear" ng-click="goState('index_tabs.home')">
+            <i class="icon ion-ios-arrow-back light"></i>
+        </button>
+        <h1 class="title light">卡券包</h1>
+    </div>
+    <ion-nav-view class="has-header">
+    </ion-nav-view>
+</div>

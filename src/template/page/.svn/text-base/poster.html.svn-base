@@ -1,0 +1,30 @@
+
+<div ng-controller="posterCtrl">
+    <ion-header-bar class="hzp-yl-header">
+        <button class="button button-clear" ng-click="back()">
+            <i class="icon ion-ios-arrow-back light"></i>
+        </button>
+        <h1 class="title light">名店海报</h1>
+
+    </ion-header-bar>
+    <ion-content class="hzp-poster-content">
+        <ion-list>
+            <ion-item class="hzp-padding">
+                <div class="hzp-poster-box" ng-click="goState('poster_detail')">
+                    <img class="full-image" src="img/hzp-img6-1.fw.png" alt="">
+                    <div class="hzp-poster-box-footer">
+                        <p>苏格缪斯KTV（农业路店）</p>
+                        <p>地址：郑州市金水区农业路酒吧一条街86号</p>
+                    </div>
+                </div>
+                <div class="hzp-poster-box" ng-click="goState('poster_detail')">
+                    <img class="full-image" src="img/hzp-img6-2.fw.png" alt="">
+                    <div class="hzp-poster-box-footer">
+                        <p>苏格缪斯KTV（农业路店）</p>
+                        <p>地址：郑州市金水区农业路酒吧一条街86号</p>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</div>

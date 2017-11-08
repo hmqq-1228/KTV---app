@@ -1,0 +1,25 @@
+<div class="content has-header scroll scroll-content" style="overflow-y: scroll;margin-top: 50px;text-align: center">
+    <div class="list-inset" ng-repeat="item in allItems">
+        <a href="javascript:void(0)">
+            <div class="item item-icon-right">
+                <p class="text-left" style="margin-top: 5px">{{item.name}}</p>
+                <p class="text-left" style="margin-top: 5px">
+                    <span>{{"数量 " + item.count}} </span>
+                    <span>{{"总价 " + item.price}} </span>
+                </p>
+                <i class="icon">
+                    <img ng-src="{{item.stateUrlBig}}" style="width: 70%" alt="">
+                </i>
+            </div>
+            <div class="item item-icon-left item-icon-right text-left">
+                <i class="icon">
+                    <img src="img/xyp-order_all-assets/time.png" style="width: 80%" alt="">
+                </i>
+                <span style="margin-left: -15px"> {{item.time}}</span>
+                <i class="icon" style="right: -50px;">
+                    <img ng-src="item.stateUrlSm" style="width: 60%;" alt="">
+                </i>
+            </div>
+        </a>
+    </div>
+</div>

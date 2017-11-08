@@ -1,0 +1,44 @@
+<div ng-controller="searchCon">
+	<ion-header-bar class="bar cll-heder item-input-inset">
+
+		<label class="item-input-wrapper ">
+                <input type="search" class="cll-search-input" placeholder="请输入商家名">
+            </label>
+		<button class="button button-clear" ng-click="back()">
+        	取消
+        </button>
+	</ion-header-bar>
+	<div ng-if ="page == 1">
+		<ion-list>
+			<ion-item class="item item-divider history">
+				<i class="icon ion-clock"></i> 搜索历史
+			</ion-item>
+			<ion-item class="item">
+					<a  class="item item-icon-right">
+						糖果KTV
+						<i class="icon ion-ios-arrow-forward"></i>
+					</a>
+
+					<a  class="item item-icon-right">
+						苏格缪斯
+						<i class="icon ion-ios-arrow-forward" ></i>
+					</a>
+
+					<a  class="item item-icon-right">
+						 爆米花KTV
+						 <i class="icon ion-ios-arrow-forward"></i>
+					</a>
+					<a class="item delete" ng-click ="clear()">
+						 <img src="img/zyy_delete.fw.png" alt="" />
+						 清空搜索记录
+					</a>
+			</ion-item>
+
+		</ion-list>
+	</div>
+	<div class="content report" ng-if ="page == 2" >
+		<div>
+			
+		</div>
+	</div>
+</div>

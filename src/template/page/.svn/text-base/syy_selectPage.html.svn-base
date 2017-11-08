@@ -1,0 +1,36 @@
+<ion-view>
+<div class="bar bar-header">
+    <button class="button button-clear button-light" ng-click="back()">
+        <i class="icon ion-ios-arrow-left"></i>
+    </button>
+    <h1 class="title light">选择银行卡</h1>
+    <a href="#/syy_addCard" class="button button-clear button-light">添加</a>
+</div>
+<ion-content class="has-header" ng-controller="syy_selectCtrl">
+    <io-list >
+        <ion-item class="item-divider"></ion-item>
+        <ion-item class="item-avatar item-icon-right ka">
+            <img src="img/syy-img/gs2.png">
+            <h2>中国工商银行</h2>
+            <p>尾号7265储蓄卡</p>
+            <i class="icon ion-ios-circle-filled assertive" ng-hide="!isShang" ng-click="isShang = !isShang"></i>
+            <i class="icon ion-ios-circle-outline" ng-hide="isShang" ng-click="isShang = !isShang"></i>
+        </ion-item>
+        <ion-item class="item-avatar item-icon-right ka">
+            <img src="img/syy-img/gd.png">
+            <h2>中国光大银行</h2>
+            <p>尾号2177储蓄卡</p>
+            <i class="icon ion-ios-circle-filled assertive" ng-hide="isShang" ng-click="isShang = !isShang"></i>
+            <i class="icon ion-ios-circle-outline" ng-hide="!isShang" ng-click="isShang = !isShang"></i>
+        </ion-item>
+        <ion-item class="item-avatar item-icon-right ka">
+            <img src="img/syy-img/js.png">
+            <h2>中国建设银行</h2>
+            <p>尾号8660储蓄卡</p>
+            <i class="icon ion-ios-circle-filled assertive" ng-hide="isShang" ng-click="isShang = !isShang"></i>
+            <i class="icon ion-ios-circle-outline" ng-hide="!isShang" ng-click="isShang = !isShang"></i>
+        </ion-item>
+    </io-list>
+</ion-content>
+</ion-view>
+

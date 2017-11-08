@@ -1,0 +1,22 @@
+<div ng-controller="messageCon">
+	<div class="bar bar-header ">
+		<button class="button button-clear button-color" ng-click="back()">
+			<i class="icon ion-ios-arrow-back"></i>
+		</button>
+		<h1 class="title">消息</h1>
+	</div>
+	<div class="content has-header"s>
+		<div class="list ">    <!--href="#/detail/{{u.id}}/{{u.name}}/{{u.time}}/{{u.value}}/{{u.photo}}"-->
+			<div class="item item-avatar" ng-click="goState(u)"    ng-repeat="u in users">
+				<img ng-src="{{u.photo}}" class="picture"/>
+				<p>
+					{{u.name}}
+					<span class="item-note">
+      					{{u.time}}
+    				</span>
+				</p>
+				<p>{{u.value}}</p>
+			</div>
+		</div>
+	</div>
+</div>

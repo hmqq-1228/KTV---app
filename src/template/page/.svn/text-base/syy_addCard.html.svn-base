@@ -1,0 +1,31 @@
+
+<div>
+	<div class="bar bar-header">
+		<button class="button button-clear" ng-click="back()">
+			<i class="icon ion-ios-arrow-back"></i>
+		</button>
+		<h1 class="title">添加银行卡</h1>
+	</div>
+	<div class="content has-header scroll-content syy-content">
+		<div class="list syy-item">
+			<label class="item item-input">
+			    <span class="input-label">持卡人</span>
+			    <input type="text" placeholder="请填写持卡人本人姓名">
+			</label>
+			<label class="item item-input">
+			    <span class="input-label">卡类型</span>
+			    <input type="text" placeholder="填写银行卡类型">
+			</label>
+			<label class="item item-input">
+			    <span class="input-label">卡&nbsp;&nbsp;&nbsp;&nbsp;号</span>
+			    <input type="text" placeholder="银行卡号">
+			</label>
+			<label class="item item-input">
+			    <span class="input-label">开户行</span>
+			    <input type="text" placeholder="填写开户银行">
+			</label>
+			<div class="normal-padding"><button class="button button-block button-royal" ng-click="sub()">提交</button></div>
+		</div>
+	</div>
+</div>
+

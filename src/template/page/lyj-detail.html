@@ -1,0 +1,46 @@
+<div class="detail" ng-controller="lyj-detailCtrl">
+	<button class="button lyj-goods-btn lyj-btn1" ng-click="back()">
+        <i class="icon ion-ios-arrow-back light"></i>
+    </button>
+    <button class="button lyj-goods-btn lyj-btn2" ng-click="show()">
+        <i class="icon ion-android-share-alt light"></i>
+    </button>
+	<div class="content scroll scroll-content has-footer" style="overflow-y: scroll;">
+		<ion-slide-box class="lyj-show" auto-play="true" slide-interval="2000" does-continue="true" on-slide-changed="slideChange()">
+			<ion-slide>
+				<img src="img/lyj-ksing.png" alt="" />
+			</ion-slide>
+			<ion-slide>
+				<img src="img/lyj-ksing.png" alt="" />
+			</ion-slide>
+			<ion-slide>
+				<img src="img/lyj-ksing.png" alt="" />
+			</ion-slide>
+		</ion-slide-box>
+		<div class="list lyj-show">
+			<a href="javascript:;" class="item item-text-wrap">
+				<i class="ion-ios-star-outline icon lyj-collect" ng-click="modal.show($event)"></i>
+				<h2 class="">撼森点歌机家庭用KTV高清触摸卡拉OK点歌机一体机套装可配音响						
+	</h2>
+				<p><strong>￥158</strong><em>￥741</em></p>
+			</a>
+		</div>
+
+		<ion-nav-view>
+
+		</ion-nav-view>
+	</div>
+	<div class="bar bar-footer">
+		<div class="tabs tabs-icon-top">
+			<a href="javascript:;" class="tab-item">
+				<i class="icon"><img src="img/lyj-cart.fw.png" class="footImg" /></i>购物车
+			</a>
+			<a href="#" class="tab-item">
+				<i class="icon"><img src="img/lyj-service.png" class="footImg"/></i>客服
+			</a>
+			<a href="javascript:;" class="tab-item tabLast text-center" ng-click="modalT.show($event)">
+				<button class="button button-light button-clear ">加入购物车</button>
+			</a>
+		</div>
+	</div>
+</div>

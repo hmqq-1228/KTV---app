@@ -1,0 +1,6 @@
+<ion-modal-view>
+    <div class="text-center" style="margin-top: 20px">
+        <img width="15%" src="img/xyp-shop_submit-assets/icon.png">
+        <p style="color: #AAAAAA;">提交成功，请等待审核</p>
+    </div>
+</ion-modal-view>

@@ -1,0 +1,134 @@
+<div ng-controller="homeCon">
+	<ion-header-bar class="bar cll-heder item-input-inset">
+        <button class="button button-clear light" ng-click="openModal()">郑州</button>
+            <label class="item-input-wrapper ">
+                <input type="search" ng-click="toSearch()">
+            </label>
+        <button class="button button-clear ">
+            <i class="icon ion-ios-sunny-outline"></i>
+            <span>21℃</span>
+        </button>
+        <a href="#/message">
+        	 <img src="img/zyy_title-msg.png" alt="">
+        </a>
+       
+    </ion-header-bar>
+	<ion-content class="cll-home-bg">
+		<div>
+			<img src="img/zyy_pic.png" class="full-image" />
+		</div>
+		<div>
+			<div class="row">
+				<div class="col col-25" ng-click="toShopping()">
+					<img src="img/zyy_pic1.png" class="full-image img" />
+					<p>k哥团购</p>
+				</div>
+				<div class="col col-25" ng-click="goState('groupK')">
+					<img src="img/zyy_pic2.png" class="full-image img" />
+					<p>约k</p>
+				</div>
+				<div class="col col-25" ng-click="goState('yl_message')">
+					<img src="img/zyy_pic3.png" class="full-image img" />
+					<p>娱乐资讯</p>
+				</div>
+				<div class="col col-25" ng-click="goState('lyj_index')">
+					<img src="img/zyy_pic4.png" class="full-image img" />
+					<p>KTV商界</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col col-25" ng-click="goState('ticketsList')">
+					<img src="img/zyy_pic5.png" class="full-image img" />
+					<p>演唱会</p>
+				</div>
+				<div class="col col-25" ng-click="goState('coupon.subcoupon.no_used')">
+					<img src="img/zyy_pic6.png" class="full-image img" />
+					<p>卡券包</p>
+				</div>
+				<div class="col col-25" ng-click="goState('poster')">
+					<img src="img/zyy_pic7.png" class="full-image img" />
+					<p>名店海报</p>
+				</div>
+				<div class="col col-25" ng-click="goState('next')">
+					<img src="img/zyy_pic8.png" class="full-image img" />
+					<p>下一站</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="row row-center" ng-click="goState('news')">
+				<div class="col col-25 border">
+					<div class="row row-center">
+						<div class="col col-40">
+							<img src="img/zyy_fire.png" class="full-image" />
+						</div>
+						<div class="col col-60 color">
+							娱 乐<br /><br />头 条
+						</div>
+					</div>
+
+				</div>
+				<div class="col col-75">
+					<ul>
+						<li>唱功不行？k歌达人教你5天逆袭歌神</li>
+						<li>气质如何展现！会唱歌啊有没有</li>
+						<li>朋友聚会哪里去，疯狂k歌看这里</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="list">
+			<div class="item item-divider">
+			</div>
+			<div class="item">
+				<div class="row">
+					<div class="col col-65">
+						<div class="time">限时抢购 <span class="datailTime">04</span>：<span class="datailTime">03</span>：<span class="datailTime">06</span></div>
+						<div class="row">
+							<div class="col col-60 sing">
+								<div class="hi">歌迷ktv5小时</div>
+								<div class="price">
+									惊爆价：<span class="money">￥58</span>
+								</div>
+							</div>
+							<div class="col col-40">
+								<img src="img/zyy_ktv1.png" class="full-image" />
+							</div>
+						</div>
+					</div>
+					<div class="col col-40">
+						<div class="red">名店风采</div>
+						<img src="img/zyy_pic11.png" class="full-image mingdian" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="list">
+			<div class="item item-divider">
+				<img src="img/zyy_heart.png" class="heart" /> 猜你最爱
+			</div>
+			<a class="item item-thumbnail-left item-text-wrap" href="#">
+				<img src="img/zyy_pic10.png" alt="" />
+				<h3 class="title">最爱ktv</h3>
+				<p class="">仅售19元，价值166元4小时下午场/5小时交易场2选1欢券</p>
+				<span class="nowP">￥19</span>
+				<span class="preP">￥166</span>
+				<span class="bought">已售123</span>
+			</a>
+			<a class="item item-thumbnail-left item-text-wrap" href="#">
+				<img src="img/zyy_ktv4.png" alt="" />
+				<h3 class="title">糖果ktv</h3>
+				<p class="">价值166元4小时下午场/5小时交易场2选1欢券+美式套餐</p>
+				<span class="nowP">￥78</span>
+				<span class="preP">￥316</span>
+				<span class="bought">已售123</span>
+			</a>
+			<div class="item item-divider">
+
+			</div>
+		</div>
+	</ion-content>
+	<ion-nav-view>
+		
+	</ion-nav-view>
+</div>

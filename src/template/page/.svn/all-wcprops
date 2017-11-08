@@ -1,0 +1,491 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/project/!svn/ver/3/KTV/src/template/page
+END
+poster.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/project/!svn/ver/12/KTV/src/template/page/poster.html
+END
+syy_overPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_overPage.html
+END
+group_detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/12/KTV/src/template/page/group_detail.html
+END
+syy_selectPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_selectPage.html
+END
+news_edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/project/!svn/ver/12/KTV/src/template/page/news_edit.html
+END
+enablePage.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/12/KTV/src/template/page/enablePage.html
+END
+syy_saoPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_saoPage.html
+END
+food.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/project/!svn/ver/12/KTV/src/template/page/food.html
+END
+lyj-commentPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj-commentPage.html
+END
+msg_details.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/12/KTV/src/template/page/msg_details.html
+END
+syy_waitVPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_waitVPage.html
+END
+xyp-waitPay.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/14/KTV/src/template/page/xyp-waitPay.html
+END
+poster_detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/12/KTV/src/template/page/poster_detail.html
+END
+used.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/project/!svn/ver/12/KTV/src/template/page/used.html
+END
+disablePage.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/12/KTV/src/template/page/disablePage.html
+END
+searchPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/14/KTV/src/template/page/searchPage.html
+END
+ticketsList.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/12/KTV/src/template/page/ticketsList.html
+END
+publish.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/project/!svn/ver/12/KTV/src/template/page/publish.html
+END
+syy_allPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_allPage.html
+END
+subcoupon.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/project/!svn/ver/14/KTV/src/template/page/subcoupon.html
+END
+next.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/project/!svn/ver/12/KTV/src/template/page/next.html
+END
+index_tabs.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/14/KTV/src/template/page/index_tabs.html
+END
+xyp-allOrder.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/12/KTV/src/template/page/xyp-allOrder.html
+END
+xyp_personal.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/14/KTV/src/template/page/xyp_personal.html
+END
+message.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/project/!svn/ver/12/KTV/src/template/page/message.html
+END
+shoppingPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/12/KTV/src/template/page/shoppingPage.html
+END
+xyp_message.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/12/KTV/src/template/page/xyp_message.html
+END
+syy_addCard.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_addCard.html
+END
+outtime.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/project/!svn/ver/12/KTV/src/template/page/outtime.html
+END
+yl_message.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/12/KTV/src/template/page/yl_message.html
+END
+resetpwdPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/12/KTV/src/template/page/resetpwdPage.html
+END
+no_used.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/project/!svn/ver/12/KTV/src/template/page/no_used.html
+END
+syy_tabs.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_tabs.html
+END
+lyj-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj-detail.html
+END
+lyj-indexPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj-indexPage.html
+END
+detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/project/!svn/ver/14/KTV/src/template/page/detail.html
+END
+coupon.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/project/!svn/ver/14/KTV/src/template/page/coupon.html
+END
+lyj-goodsList.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj-goodsList.html
+END
+syy_ktvPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_ktvPage.html
+END
+syy_verifyPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_verifyPage.html
+END
+cardPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/project/!svn/ver/12/KTV/src/template/page/cardPage.html
+END
+groupK.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/project/!svn/ver/12/KTV/src/template/page/groupK.html
+END
+orderPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/project/!svn/ver/12/KTV/src/template/page/orderPage.html
+END
+news.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/project/!svn/ver/12/KTV/src/template/page/news.html
+END
+syy_order.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_order.html
+END
+goods_details.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/12/KTV/src/template/page/goods_details.html
+END
+lyj-info.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj-info.html
+END
+syy_seqPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_seqPage.html
+END
+lyj-search.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/12/KTV/src/template/page/lyj-search.html
+END
+lyj-person.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj-person.html
+END
+appraise.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/project/!svn/ver/14/KTV/src/template/page/appraise.html
+END
+syy_waitPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_waitPage.html
+END
+lyj-manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj-manager.html
+END
+lyj_tabs.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj_tabs.html
+END
+syy_msgDetail.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_msgDetail.html
+END
+parameter.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/project/!svn/ver/14/KTV/src/template/page/parameter.html
+END
+messagePage.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/12/KTV/src/template/page/messagePage.html
+END
+registerPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/12/KTV/src/template/page/registerPage.html
+END
+syy_result.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_result.html
+END
+syy_myCard.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_myCard.html
+END
+xyp_data_info.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/12/KTV/src/template/page/xyp_data_info.html
+END
+homePage.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/project/!svn/ver/14/KTV/src/template/page/homePage.html
+END
+apply.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/project/!svn/ver/12/KTV/src/template/page/apply.html
+END
+lyj-modal.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj-modal.html
+END
+syy_message.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_message.html
+END
+tabs.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/project/!svn/ver/12/KTV/src/template/page/tabs.html
+END
+lyj-paramPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj-paramPage.html
+END
+syy_countPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_countPage.html
+END
+xyp-orderList-index.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/project/!svn/ver/12/KTV/src/template/page/xyp-orderList-index.html
+END
+lyj-detailPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj-detailPage.html
+END
+syy_txPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_txPage.html
+END
+xyp-waitComm.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/14/KTV/src/template/page/xyp-waitComm.html
+END
+xyp-waitUse.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/14/KTV/src/template/page/xyp-waitUse.html
+END
+detailPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/12/KTV/src/template/page/detailPage.html
+END
+syy_myAddress.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_myAddress.html
+END
+lyj-company.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj-company.html
+END
+syy_verifyOrder.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/project/!svn/ver/14/KTV/src/template/page/syy_verifyOrder.html
+END
+cityPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/project/!svn/ver/14/KTV/src/template/page/cityPage.html
+END
+loginPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/project/!svn/ver/12/KTV/src/template/page/loginPage.html
+END
+xyp_shop.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/project/!svn/ver/12/KTV/src/template/page/xyp_shop.html
+END
+lyj-modal2.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/14/KTV/src/template/page/lyj-modal2.html
+END

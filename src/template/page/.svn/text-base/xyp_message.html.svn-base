@@ -1,0 +1,40 @@
+
+<div class="bar bar-header">
+    <button class="button icon ion-ios-arrow-back button-clear" ng-click="back()"></button>
+    <h2 class="title">消息</h2>
+</div>
+<div class="content has-header scroll scroll-content" style="overflow-y: scroll">
+    <div class="list">
+        <a class="item item-avatar" href="#">
+            <img src="img/xyp-message-assets/list1.jpg">
+            <h2>Venkman</h2>
+            <span>您好，有什么可以帮助您的？</span>
+            <span class="item-note">2016-2-2</span>
+        </a>
+        <a class="item item-avatar" href="#">
+            <img src="img/xyp-message-assets/list2.jpg">
+            <h2>Venkman</h2>
+            <span>您好，有什么可以帮助您的？</span>
+            <span class="item-note">2016-2-2</span>
+        </a>
+        <a class="item item-avatar" href="#">
+            <img src="img/xyp-message-assets/list3.jpg">
+            <h2>Venkman</h2>
+            <span>您好，有什么可以帮助您的？</span>
+            <span class="item-note">2016-2-2</span>
+        </a>
+        <a class="item item-avatar" href="#">
+            <img src="img/xyp-message-assets/list4.jpg">
+            <h2>Venkman</h2>
+            <span>您好，有什么可以帮助您的？</span>
+            <span class="item-note">2016-2-2</span>
+        </a>
+        <a class="item item-avatar" href="#">
+            <img src="img/xyp-message-assets/list5.jpg">
+            <h2>Venkman</h2>
+            <span>您好，有什么可以帮助您的？</span>
+            <span class="item-note">2016-2-2</span>
+        </a>
+    </div>
+</div>
+

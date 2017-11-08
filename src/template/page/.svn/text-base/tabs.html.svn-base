@@ -1,0 +1,11 @@
+<ion-tabs class="tabs-striped tabs-top tabs-color-active-royal hzp-goods-tabs">
+    <ion-tab title="产品参数" href="#goods_details/tabs/parameter">
+        <ion-nav-view name="parameter"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="图文详情" href="#goods_details/tabs/detail">
+        <ion-nav-view name="detail"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="用户评价" href="#goods_details/tabs/appraise">
+        <ion-nav-view name="appraise"></ion-nav-view>
+    </ion-tab>
+</ion-tabs>

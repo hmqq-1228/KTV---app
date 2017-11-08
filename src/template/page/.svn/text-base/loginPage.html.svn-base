@@ -1,0 +1,19 @@
+<div ng-controller="loginCon" class="background">
+	<div class="padding">
+		<ion-list class="list list-inset">
+			<ion-item class="item item-input">
+				<input type="text" placeholder="请输入手机号" ng-model="user.username" id="telphone" />
+			</ion-item>
+			<ion-item class="item item-input">
+				<input type="password" placeholder="请输入密码" ng-model="user.password" id="pwd" />
+			</ion-item>
+			<ion-item class="item item-input  item-royal">
+				<button class="button button-clear button-light" ng-click="login()" id="login">登录</button>
+			</ion-item>
+		</ion-list>
+		<p class="opeate">
+			<a href="###" id="freeReg" ng-click="toReg()">免费注册</a>
+			<a href="###" id="remPwd" ng-click="toresetPwd()">忘记密码?</a>
+		</p>
+	</div>
+</div>

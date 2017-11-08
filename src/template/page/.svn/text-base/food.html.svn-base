@@ -1,0 +1,174 @@
+
+<div ng-controller="foodCtrl">
+    <ion-header-bar class="hzp-food-header">
+        <button class="button button-clear" ng-click="back()">
+            <i class="icon ion-ios-arrow-back light"></i>
+        </button>
+        <h2 class="title">美食</h2>
+        <button class="button button-clear">
+            <i class="icon ion-ios-person-outline light"></i>
+        </button>
+    </ion-header-bar>
+    <ion-content>
+        <div class="hzp-food-search item-input-inset">
+            <label class="item-input-wrapper">
+                <i class="icon ion-ios-search placeholder-icon"></i>
+                <input type="search" placeholder="Search">
+            </label>
+        </div>
+        <ion-list>
+            <ion-item class="hzp-food-btns button-bar">
+                <button class="button button-clear button-dark">
+                    菜系
+                    <i class="ion-chevron-down"></i>
+                </button>
+                <button class="button button-clear button-dark">
+                    范围
+                    <i class="ion-chevron-down"></i>
+                </button>
+                <button class="button button-clear button-dark">
+                    筛选
+                    <i class="ion-chevron-down"></i>
+                </button>
+                <button class="button button-clear button-dark">
+                    排序
+                    <i class="ion-chevron-down"></i>
+                </button>
+            </ion-item>
+            <ion-item class="item-thumbnail-left hzp-food-list">
+                <img src="img/hzp-img6-3.fw.png" alt="">
+                <p class="hzp-food-title">
+                    舟友烤鱼
+                    <span class="pull-right">
+                        <img src="img/hzp-tuan.png" alt="">
+                        <img src="img/hzp-fu.png" alt="">
+                    </span>
+                </p>
+                <p class="hzp-food-star">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-Star_Half.png" alt="">
+                    <span class="hzp-food-icon">
+                        <img src="img/hzp-wifi.png" alt="">
+                        <img src="img/hzp-P.png" alt="">
+                    </span>
+                    <span class="pull-right">
+                        人均：<span class="hzp-food-price">￥45</span>
+                    </span>
+                </p>
+                <p class="hzp-food-address">
+                    川菜 花园路
+                    <span class="pull-right">68m</span>
+                </p>
+                <p class="hzp-food-num">4.8折起，352人已团购</p>
+            </ion-item>
+            <ion-item class="item-thumbnail-left hzp-food-list">
+                <img src="img/hzp-img6-3.fw.png" alt="">
+                <p class="hzp-food-title">
+                    如意涮台湾时尚小火锅（国贸360店）
+                </p>
+                <p class="hzp-food-star">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-Star_Half.png" alt="">
+                    <span class="hzp-food-icon">
+                        <img src="img/hzp-wifi.png" alt="">
+                        <img src="img/hzp-P.png" alt="">
+                    </span>
+                    <span class="pull-right">
+                        人均：<span class="hzp-food-price">￥45</span>
+                    </span>
+                </p>
+                <p class="hzp-food-address">
+                    火锅 花园路
+                    <span class="pull-right">54m</span>
+                </p>
+            </ion-item>
+            <ion-item class="item-thumbnail-left hzp-food-list">
+                <img src="img/hzp-img6-3.fw.png" alt="">
+                <p class="hzp-food-title">
+                    小滋披萨
+                </p>
+                <p class="hzp-food-star">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-Star_Half.png" alt="">
+                    <span class="hzp-food-icon">
+                        <img src="img/hzp-P.png" alt="">
+                    </span>
+                    <span class="pull-right">
+                        人均：<span class="hzp-food-price">￥46</span>
+                    </span>
+                </p>
+                <p class="hzp-food-address">
+                    快餐 花园路
+                    <span class="pull-right">43m</span>
+                </p>
+            </ion-item>
+            <ion-item class="item-thumbnail-left hzp-food-list">
+                <img src="img/hzp-img6-3.fw.png" alt="">
+                <p class="hzp-food-title">
+                    虾吃虾涮（国贸360店）
+                    <span class="pull-right">
+                        <img src="img/hzp-tuan.png" alt="">
+                        <img src="img/hzp-fu.png" alt="">
+                    </span>
+                </p>
+                <p class="hzp-food-star">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-Star_Half.png" alt="">
+                    <span class="hzp-food-icon">
+                        <img src="img/hzp-wifi.png" alt="">
+                        <img src="img/hzp-P.png" alt="">
+                    </span>
+                    <span class="pull-right">
+                        人均：<span class="hzp-food-price">￥56</span>
+                    </span>
+                </p>
+                <p class="hzp-food-address">
+                    火锅 花园路
+                    <span class="pull-right">68m</span>
+                </p>
+                <p class="hzp-food-num">6.8折起，244人已团购</p>
+            </ion-item>
+            <ion-item class="item-thumbnail-left hzp-food-list">
+                <img src="img/hzp-img6-3.fw.png" alt="">
+                <p class="hzp-food-title">
+                    食飨汇韩国料理（花园路店）
+                    <span class="pull-right">
+                        <img src="img/hzp-tuan.png" alt="">
+                        <img src="img/hzp-fu.png" alt="">
+                    </span>
+                </p>
+                <p class="hzp-food-star">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-star.png" alt="">
+                    <img src="img/hzp-Star_Half.png" alt="">
+                    <span class="hzp-food-icon">
+                        <img src="img/hzp-wifi.png" alt="">
+                        <img src="img/hzp-P.png" alt="">
+                    </span>
+                    <span class="pull-right">
+                        人均：<span class="hzp-food-price">￥43</span>
+                    </span>
+                </p>
+                <p class="hzp-food-address">
+                    韩国料理 花园路
+                    <span class="pull-right">68m</span>
+                </p>
+                <p class="hzp-food-num">4.8折起，352人已团购</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</div>

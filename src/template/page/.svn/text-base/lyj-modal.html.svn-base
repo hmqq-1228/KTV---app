@@ -1,0 +1,4 @@
+<ion-modal-view class="mt">
+        <i class="icon ion-star star text-center"></i>
+        <div class="success text-center">收藏成功！</div>
+</ion-modal-view>

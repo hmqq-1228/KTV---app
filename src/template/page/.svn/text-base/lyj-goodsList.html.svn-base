@@ -1,0 +1,36 @@
+<div ng-controller="lyjGoodsListCtrl">
+	<div class="goodList">
+		<div class="bar bar-header lyj-top">
+			<i class="button icon-left button-clear button-light button-small ion-ios-arrow-back" ng-click="back()"></i>
+			<h1 class="title">商品列表</h1>
+		</div>
+		<div class="content has-header scroll scroll-content" style="overflow-y: scroll;">
+			<ul class="list listY" ng-show="myHide">
+				<li class="item">音响</li>
+				<li class="item">麦克风</li>
+				<li class="item">灯光</li>
+				<li class="item">酒水</li>
+			</ul>
+			<ul class="list listD" ng-show="myShow">
+				<li class="item" ng-click="s='price'">价格从低到高</li>
+				<li class="item" ng-click="s='-price'">价格从高到低</li>
+			</ul>
+			<ul class="lyj-classify">
+				<li ng-click="active=!active;colorT=!colorT;myHide=!myHide" ng-class="{true:'colorL',false:'colorM'}[colorT]">分类<i class="icon ion-arrow-down-b" ng-class="{true:'ion-arrow-down-b colorL',false:'ion-arrow-up-b colorM'}[active]"></i></li>
+				<li ng-click="active1=!active1;colorT1=!colorT1;myShow=!myShow;" ng-class="{true:'colorL',false:'colorM'}[colorT1]">价格排序<i class="icon ion-arrow-down-b" ng-class="{true:'ion-arrow-down-b colorL',false:'ion-arrow-up-b colorM'}[active1]"></i></li>
+				<li>销量优先</li>
+			</ul>
+			<ul class="list" ng-repeat="i in items |orderBy:s">
+				<li class="item item-thumbnail-left item-text-wrap" ng-click="goState('details.lyj_tabs.param')">
+
+					<img src="{{i.src}}" alt="" />
+					<h2 class="sellT">{{i.info}}	  
+				 </h2>
+					<p>
+						<strong>{{i.price}}</strong> &nbsp;&nbsp;
+						<em>{{i.oldPrice}}</em><span class="lyj-sell">已售123</span></p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

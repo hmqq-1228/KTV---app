@@ -1,0 +1,119 @@
+<style>
+    .item h2 {
+        margin-left: 0;
+    }
+</style>
+<div ng-controller="xyp_personalCtrl"></div>
+<div class="bar bar-header">
+    <button class="button icon ion-ios-arrow-back button-clear" style="color: #fff;"></button>
+    <h2 class="title">个人中心</h2>
+    <button class="button button-small button-clear">
+        <button class="button button-clear" ng-click="goState('xyp_message')">
+            <img class="img" src="img/xyp-person_center-assets/msg.png" alt="">
+        </button>
+    </button>
+</div>
+<div class="content has-header has-footer scroll scroll-content scrollY" style="text-align: center;margin-top: 0%">
+    <div class="photo">
+        <button class="button-clear" ng-click="goState('xyp_data_info')">
+            <img src="img/xyp-person_center-assets/panda.png" style="width:70%;" alt="更换头像">
+        </button><br>
+        <span class="title size">我是歌手</span>
+        <div class="bar bar-color bottom">
+            <div class="fen">
+                <div class="float" ng-click="goState('syy_tabs.syy_ktv')">
+                    <img src="img/xyp-person_center-assets/merchant.png" style="width: 25px" alt="">
+                    &nbsp;&nbsp;<p>成为团购商家</p>
+                </div>
+                <div class="float" style="border: none" ng-click="goState('xyp_shop')">
+                    <img src="img/xyp-person_center-assets/seller.png" style="width: 25px;margin-left: 15%" alt="">
+                    &nbsp;&nbsp;<p>成为产品卖家</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="list">
+        <a class="item item-icon-left item-icon-right text-left" ng-click="goState('xyp_tabs.allOrderList')">
+            <i class="icon"><img src="img/xyp-person_center-assets/groupOrder.png" style="width: 60%" alt=""></i>
+            团购订单
+            <span class="item-note xyp-item-span" style="float: right;">查看全部订单</span>
+            <i class="icon button-small ion-ios-arrow-forward"></i>
+        </a>
+        <!--<div class="item">-->
+        <div class="row">
+            <div class="col">
+                <img class="pay" src="img/xyp-person_center-assets/pay.png" alt="">
+            </div>
+            <div class="col ">
+                <img class="pay" src="img/xyp-person_center-assets/receive.png" alt="">
+            </div>
+            <div class="col">
+                <img class="pay" src="img/xyp-person_center-assets/rose.png" alt="">
+            </div>
+        </div>
+        <div class="row" style="margin-top: -15px">
+            <div class="col">待付款</div>
+            <div class="col">待使用</div>
+            <div class="col">待评价</div>
+        </div>
+        <!--</div>-->
+        <a class="item item-icon-left item-icon-right text-left" href="#">
+            <i class="icon"><img src="img/xyp-person_center-assets/order.png" style="width: 60%" alt=""></i>
+            团购订单
+            <span class="item-note xyp-item-span">查看全部订单</span>
+            <i class="icon button-small ion-ios-arrow-forward"></i>
+        </a>
+        <div class="row">
+            <div class="col">
+                <img class="pay" src="img/xyp-person_center-assets/pay.png" alt="">
+            </div>
+            <div class="col ">
+                <img class="pay" src="img/xyp-person_center-assets/receive.png" alt="">
+            </div>
+            <div class="col">
+                <img class="pay" src="img/xyp-person_center-assets/rose.png" alt="">
+            </div>
+        </div>
+        <div class="row" style="margin-top: -15px">
+            <div class="col">待付款</div>
+            <div class="col">待使用</div>
+            <div class="col">待评价</div>
+        </div>
+        <a class="item item-icon-left item-icon-right" href="#">
+            <i class="icon"><img src="img/xyp-person_center-assets/coupon.png" style="width: 60%" alt=""></i>
+            <h2 class="text-left">团购订单</h2>
+            <i class="icon button-small ion-ios-arrow-forward"></i>
+        </a>
+        <a class="item item-icon-left item-icon-right" href="#">
+            <i class="icon"><img src="img/xyp-person_center-assets/kyue.png" style="width: 60%" alt=""></i>
+            <h2 class="text-left">团购订单</h2>
+            <i class="icon button-small ion-ios-arrow-forward"></i>
+        </a>
+        <a class="item item-icon-left item-icon-right" href="#">
+            <i class="icon"><img src="img/xyp-person_center-assets/collect.png" style="width: 60%" alt=""></i>
+            <h2 class="text-left">团购订单</h2>
+            <i class="icon button-small ion-ios-arrow-forward"></i>
+        </a>
+        <a class="item item-icon-left item-icon-right" href="#">
+            <i class="icon"><img src="img/xyp-person_center-assets/mytop.png" style="width: 60%" alt=""></i>
+            <h2 class="text-left">团购订单</h2>
+            <i class="icon button-small ion-ios-arrow-forward"></i>
+        </a>
+        <a class="item item-icon-left item-icon-right" href="#">
+            <i class="icon"><img src="img/xyp-person_center-assets/attention.png" style="width: 60%" alt=""></i>
+            <h2 class="text-left">团购订单</h2>
+            <i class="icon button-small ion-ios-arrow-forward"></i>
+        </a>
+        <a class="item item-icon-left item-icon-right" href="#">
+            <i class="icon"><img src="img/xyp-person_center-assets/address.png" style="width: 60%" alt=""></i>
+            <h2 class="text-left">团购订单</h2>
+            <i class="icon button-small ion-ios-arrow-forward"></i>
+        </a>
+        <a class="item item-icon-left item-icon-right" href="#">
+            <i class="icon"><img src="img/xyp-person_center-assets/set.png" style="width: 60%" alt=""></i>
+            <h2 class="text-left">团购订单</h2>
+            <i class="icon button-small ion-ios-arrow-forward"></i>
+        </a>
+    </div>
+</div>
+<!--</div>-->

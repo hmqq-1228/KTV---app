@@ -1,0 +1,76 @@
+<ion-header-bar class="bar lyj-top item-input-inset">
+			 <i class="button icon-left button-clear button-light button-small ion-ios-arrow-back" ng-click="back()"></i>
+			 <label class="item-input-wrapper">
+				<i class="icon ion-ios-search placeholder-icon"></i>
+				<input type="text" placeholder="请输入器材名" ng-click="goState('lyj_search')"/>		
+			</label>
+        <button class="button button-clear ">
+            <i class="icon ion-ios-sunny-outline"></i>
+            <span>21℃</span>
+        </button>
+        <img src="img/lyj-title-msg.png" alt="">
+    </ion-header-bar>
+    <ion-content class="content has-header scroll-content" style="overflow-y: scroll">
+        <ion-list>
+            <ion-item>
+                <img src="img/lyj-top.png" alt="" class="full-image">
+            </ion-item>
+            <ion-item>
+                <div class="row  text-center">
+                    <div class="col "><div class="lyj-padding"><img src="img/lyj-1.png" alt="" class="full-image"></div>设计装修</div>
+                    <div class="col" ng-click="goState('lyj_goodsList')"><div class="lyj-padding"><img src="img/lyj-2.png" alt="" class="full-image"></div>设备工程</div>
+                    <div class="col"><div class="lyj-padding"><img src="img/lyj-3.png" alt="" class="full-image"></div>家居饰品</div>
+                    <div class="col"><div class="lyj-padding"><img src="img/lyj-4.png" alt="" class="full-image"></div>酒水食品</div>
+                </div>
+                <div class="row  text-center">
+                    <div class="col" ng-click="goState('manager')"><div class="lyj-padding"><img src="img/lyj-5.png" alt="" class="full-image"></div>经营管理</div>
+                    <div class="col" ng-click="goState('lyj_person')"><div class="lyj-padding"><img src="img/lyj-6.png" alt="" class="full-image"></div>商界精英</div>
+                    <div class="col"><div class="lyj-padding"><img src="img/lyj-7.png" alt="" class="full-image"></div>人才交流</div>
+                    <div class="col"><div class="lyj-padding"><img src="img/lyj-8.png" alt="" class="full-image"></div>招标信息</div>
+                </div>
+            </ion-item>
+            <ion-item class="text-center">
+               <span class="news">新闻动态：</span>携程危机公关的三大不足    叶东：携程危机
+            </ion-item>
+            <ion-item class="item item-divider"></ion-item>
+            <ion-item>
+                <div class="row">
+                    <div class="col-67">
+                       <div class="lyj-p"><span class="royal lyj-timeover">限时抢购</span><br/><span><span class="lyj-time-border royal">04</span>:<span class="lyj-time-border royal ">03</span>:<span class="lyj-time-border royal">26</span></span>
+                       	 <p class="lyj-sing-price">
+                            <h5>索爱 CK-M3家庭音</h5>
+                            <button class="button lyj-button">立即抢购</button>
+                          
+                        </p>
+                       </div>                     
+                          <div class="lyj-sing-ktv">
+                        	 <span class="lyj-price-bcg">￥<span class="lyj-price-num">58</span></span>
+                            <img src="img/lyj-time.png" alt="">
+                        </div>
+                        </div> 
+                        <div class="col lyj-border-left">
+                        <p class="assertive">名店风采</p>
+                        <div class="lyj-shop-ktv">
+                            <img src="img/lyj-famous.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+            </ion-item>
+            <ion-item class="item item-divider item-icon-left">
+                <img src="img/lyj-music.png" alt="" class="icon">
+                <span>商界推荐</span>
+            </ion-item>
+            <ion-item class="item item-thumbnail-left item-text-wrap" ng-click="goState('details.param',null)">
+                <img src="img/lyj-sing.png" alt="">
+                <h2>撼森点歌机家庭用KTV高清触摸卡拉OK点歌机一体机套装可配音响</h2>
+                <div class="lyj-royal">￥<span class="lyj-now-price">555</span><span class="lyj-old-price">￥158</span><span class="lyj-thumbnail-right">已售123</span></div>
+            </ion-item>
+            <ion-item class="item item-thumbnail-left item-text-wrap" ng-click="goState('message',null)">
+                <img src="img/lyj-computer.png" alt="">
+                <h2>InAndon/音王 KB505 1000G高清点歌机 家庭ktv 卡拉ok点唱一体机</h2>              
+                <div class="lyj-royal">￥<span class="lyj-now-price">1288</span><span class="lyj-old-price">￥2228</span><span class="lyj-thumbnail-right">已售123</span></div>
+            </ion-item>        
+        </ion-list>
+    </ion-content>

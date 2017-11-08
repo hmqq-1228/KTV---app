@@ -1,0 +1,48 @@
+<ion-view class="hzp-goods-v">
+    <ion-list class="hzp-tab">
+        <ion-item class="hzp-appraise item-text-wrap">
+            <div class="row">
+                <div class="col-20">
+                    <img src="img/hzp-img1-2.fw.png" alt="">
+                </div>
+                <div class="hzp-appraise-name">
+                    <p>落月摇情、</p>
+                    <p>
+                        <i class="icon ion-ios-star royal"></i>
+                        <i class="icon ion-ios-star royal"></i>
+                        <i class="icon ion-ios-star royal"></i>
+                        <i class="icon ion-ios-star royal"></i>
+                        <i class="icon ion-ios-star-outline"></i>
+                    </p>
+                </div>
+            </div>
+            <p class="hzp-appraise-content">抱着试试看的心态拍下宝贝，商家给发的邮政，一直以为邮政很慢，未想到速度喜人。收到宝贝，立马拆开很好。</p>
+            <img src="img/hzp-img4-3.fw.png" alt="">
+            <img src="img/hzp-img4-4.fw.png" alt="">
+            <img src="img/hzp-img4-5.fw.png" alt="">
+            <p class="hzp-appraise-time">2015.07.29 11:26:57 颜色分类：基础礼盒</p>
+        </ion-item>
+        <ion-item class="hzp-appraise item-text-wrap">
+            <div class="row">
+                <div class="col-20">
+                    <img src="img/hzp-img1-2.fw.png" alt="">
+                </div>
+                <div class="hzp-appraise-name">
+                    <p>落月摇情、</p>
+                    <p>
+                        <i class="icon ion-ios-star royal"></i>
+                        <i class="icon ion-ios-star royal"></i>
+                        <i class="icon ion-ios-star royal"></i>
+                        <i class="icon ion-ios-star royal"></i>
+                        <i class="icon ion-ios-star-outline"></i>
+                    </p>
+                </div>
+            </div>
+            <p class="hzp-appraise-content">抱着试试看的心态拍下宝贝，商家给发的邮政，一直以为邮政很慢，未想到速度喜人。收到宝贝，立马拆开很好。</p>
+            <img src="img/hzp-img4-3.fw.png" alt="">
+            <img src="img/hzp-img4-4.fw.png" alt="">
+            <img src="img/hzp-img4-5.fw.png" alt="">
+            <p class="hzp-appraise-time">2015.07.29 11:26:57 颜色分类：基础礼盒</p>
+        </ion-item>
+    </ion-list>
+</ion-view>

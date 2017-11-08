@@ -1,0 +1,37 @@
+
+<div ng-controller="newsEditCtrl">
+    <ion-header-bar class="hzp-yl-header">
+        <button class="button button-clear" ng-click="back()">
+            <i class="icon ion-ios-arrow-back light"></i>
+        </button>
+        <h1 class="title light">头条</h1>
+        <button class="button button-clear butt">
+            <span class="light">发送</span>
+        </button>
+    </ion-header-bar>
+    <ion-content>
+        <ion-list class="hzp-news-list">
+            <ion-item class="item-input">
+                <input type="text" placeholder="标题">
+            </ion-item>
+            <ion-item class="item-input hzp-news-title">
+                <textarea name="" cols="30" rows="20" placeholder="请输入内容"></textarea>
+
+            </ion-item>
+            <ion-item class="item-thumbnail-left">
+                <img src="img/hzp-publish.fw.png" alt="">
+                <h2 class="hzp-publish-h2">添加图片</h2>
+                <p>最多三张</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <ion-footer-bar class="item-input-inset hzp-news-footer">
+        <span class="input-label">
+            <img src="img/hzp-add.png" alt="">
+        </span>
+        <input type="text">
+        <button class="button button-clear pull-right">
+            <span class="light">发送</span>
+        </button>
+    </ion-footer-bar>
+</div>

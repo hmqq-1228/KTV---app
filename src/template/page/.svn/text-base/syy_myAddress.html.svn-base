@@ -1,0 +1,27 @@
+
+<div>
+	<div class="bar bar-header">
+		<button class="button button-clear" ng-click="back()">
+			<i class="icon ion-ios-arrow-back"></i>
+		</button>
+		<h1 class="title">我的店址</h1>
+	</div>
+	<div class="content has-header scroll-content syy-content">
+		<div class="list">
+		  <label class="item item-input syy-address-item">
+		    <span class="input-label">省 市 县</span>
+		    <input type="text" placeholder="请选择地区">
+		  </label>
+		  <label class="item item-input syy-address-item">
+		    <span class="input-label">详细地址</span>
+		    <input type="text" placeholder="请输入详细地址">
+		  </label>
+		  <label class="item item-input syy-address-item">
+		    <span class="input-label">经 纬 度</span>
+		    <input type="text" placeholder="点击获取经纬度">
+		    <i class="icon ion-ios-location royal syy-location-icon"></i>
+		  </label>
+</div>
+	</div>
+</div>
+

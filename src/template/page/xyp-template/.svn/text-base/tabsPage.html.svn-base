@@ -1,0 +1,30 @@
+<style>
+   .list-inset:first-child{
+       margin-top: 50px;
+   }
+   .item-icon-right .icon {
+       right: -25px;
+   }
+</style>
+<div ng-controller="xyp_tabsCtrl">
+	<div class="bar bar-header">
+	    <button class="button icon ion-ios-arrow-back button-clear" ng-click="goState('center',null)"></button>
+	    <h2 class="title">团购订单</h2>
+	    <button class="button icon  button-clear" ng-click="goState('group_order',null)">编辑</button>
+	</div>
+	<ion-tabs class="tabs-color-active-positive tabs-top">
+	    <ion-tab title="全部" href="#/xyp_tabs/allOrderList" style="border-bottom:1px solid red">
+	        <ion-nav-view name="allOrderList" cache-view="true"></ion-nav-view>
+	    </ion-tab>
+	
+	    <ion-tab title="待付款" href="#/xyp_tabs/waitPay">
+	        <ion-nav-view name="waitPay" cache-view="true"></ion-nav-view>
+	    </ion-tab>
+	    <ion-tab title="待使用" href="#/xyp_tabs/waitUse">
+	        <ion-nav-view name="waitUse" cache-view="true"></ion-nav-view>
+	    </ion-tab>
+	    <ion-tab title="待评价" href="#/xyp_tabs/waitComm">
+	        <ion-nav-view name="waitComm" cache-view="true"></ion-nav-view>
+	    </ion-tab>
+	</ion-tabs>
+</div>

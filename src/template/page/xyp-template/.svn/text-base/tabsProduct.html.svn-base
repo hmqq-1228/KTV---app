@@ -1,0 +1,47 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/ionic.min.css">
+    <style>
+        .list-inset:first-child{
+            margin-top: 50px;
+        }
+        .item-icon-right .icon {
+            right: -25px;
+        }
+    </style>
+</head>
+<body ng-app="myApp" ng-controller="myCon">
+<div class="bar bar-header">
+    <button class="button icon ion-ios-arrow-back button-clear" ng-click="goState('center',null)"></button>
+    <h2 class="title">商品订单</h2>
+</div>
+    <ion-tabs class="tabs-color-active-positive tabs-top">
+        <ion-tab title="全部" href="#tabs/allOrderList" style="border-bottom:1px solid red">
+            <ion-nav-view name="allProList" cache-view="true"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab title="待付款" href="#tabs/waitPay">
+            <ion-nav-view name="waitProPay" cache-view="true"></ion-nav-view>
+        </ion-tab>
+        <ion-tab title="待使用" href="#tabs/waitUse">
+            <ion-nav-view name="waitProUse" cache-view="true"></ion-nav-view>
+        </ion-tab>
+        <ion-tab title="待评价" href="#tabs/waitComm">
+            <ion-nav-view name="waitProComm" cache-view="true"></ion-nav-view>
+        </ion-tab>
+    </ion-tabs>
+</body>
+<script src="../js/ionic.bundle.js"></script>
+<script>
+    angular.module("myApp",["ionic"])
+        .controller("myCon",["$scope",function ($scope) {
+            
+        }])
+</script>
+</html>

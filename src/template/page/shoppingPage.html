@@ -1,0 +1,115 @@
+<div ng-controller="shoppingCon">
+	<div class="bar bar-header ">
+		<button class="button button-clear button-color" ng-click="back()">
+			<i class="icon ion-ios-arrow-back"></i>
+		</button>
+		<h1 class="title">团购</h1>
+	</div>
+	<ion-content class="has-header content">
+		<div class="row head-row">
+			<div class="col col-33">全部
+				<i class="icon ion-android-arrow-dropdown"></i></div>
+			<div class="col col-33" ng-click="myShow=!myShow">附近
+				<i class="icon ion-android-arrow-dropdown"></i></div>
+			<div ng-show="myShow" class="show">
+				<ion-list>
+					<ion-item>
+						全部
+					</ion-item>
+					<ion-item>
+						高新技术开发区
+					</ion-item>
+					<ion-item>
+						二七区
+					</ion-item>
+					<ion-item>
+						中原区
+					</ion-item>
+					<ion-item>
+						新郑市
+					</ion-item>
+				</ion-list>
+			</div>
+			<div class="col col-33" ng-click="myhide =!myhide">智能排序
+				<i class="icon ion-android-arrow-dropdown"></i></div>
+			<div ng-show="myhide" class="show">
+				<ion-list>
+					<ion-item>
+						好评优先
+					</ion-item>
+					<ion-item>
+						距离优先
+					</ion-item>
+					<ion-item>
+						人气最高
+					</ion-item>
+				</ion-list>
+			</div>
+		</div>
+		<div class="list">
+
+			<div class="item item-divider">
+			</div>
+
+			<div class="item  item-avatar border">
+				<img src="img/zyy_ktv1.fw.png" alt="" />
+				<h2>歌秀主题量贩ktv(农业路店)</h2>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite-outline"></i>
+				<p class="price">￥29.9起 <span class="item-note"><500米</span></p>
+			</div>
+			<div class="item item-divider">
+			</div>
+			<div class="item  item-avatar border">
+				<img src="img/zyy_ktv2.fw.png" alt="" />
+				<h2>苏格缪斯ktv(酒吧一条街店)</h2>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite-outline"></i>
+				<p class="price">￥58起 <span class="item-note"><500米</span></p>
+			</div>
+			<div class="item item-divider">
+			</div>
+			<div class="item  item-avatar border">
+				<img src="img/zyy_ktv3.fw.png" alt="" />
+				<h2>最爱ktv(农业路店)</h2>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite-outline"></i>
+				<p class="price">￥19起 <span class="item-note"><500米</span></p>
+			</div>
+			<div class="item item-divider">
+			</div>
+			<div class="item  item-avatar border">
+				<img src="img/zyy_ktv4.fw.png" alt="" />
+				<h2>糖果ktv(国贸路店)</h2>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite-outline"></i>
+				<p class="price">￥29.9起 <span class="item-note"><500米</span></p>
+			</div>
+			<div class="item item-divider">
+			</div>
+			<div class="item  item-avatar border">
+				<img src="img/zyy_ktv5.fw.png" alt="" />
+				<h2>歌秀主题量贩ktv(农业路店)</h2>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite"></i>
+				<i class=" icon ion-android-favorite-outline"></i>
+				<p class="price">￥29.9起 <span class="item-note"><500米</span></p>
+			</div>
+
+		</div>
+	</ion-content>
+</div>

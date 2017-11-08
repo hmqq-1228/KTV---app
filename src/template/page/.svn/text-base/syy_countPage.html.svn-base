@@ -1,0 +1,63 @@
+<ion-view>
+	<div class="bar bar-header">
+			<button class="button button-clear" ng-click="back()">
+				<i class="icon ion-ios-arrow-left"></i>
+			</button>
+			<h1 class="title">账户余额</h1>
+		</div>
+		<div class="content has-header scroll-content syy-content">
+			<div class="list">
+				<div class="item">
+					<div class="normal-padding syy-count">
+						<img src="img/syy-img/icon4.png"/>
+						<button class="button button-block button-royal" ng-click="goState('syy_tx')">提现</button>
+					</div>
+				</div>
+			</div>
+			<div class="list syy-count-list">
+				<div class="normal-padding syy-padding">
+					<div class="item">
+						<div class="syy-count-left">
+							<img src="img/syy-img/icon6.png" alt="" />
+							<h2>提现明细</h2>
+						</div>
+					</div>
+					<div class="item syy-count-con">
+						<div>
+							<h2>提现-进行中</h2>
+							<p>2015-01-20</p>
+						</div>
+						<div class="syy-subMoney">-100.00</div>
+					</div>
+					<div class="item syy-count-con">
+						<div>
+							<h2>提现-进行中</h2>
+							<p>2015-01-20</p>
+						</div>
+						<div class="syy-subMoney">-100.00</div>
+					</div>
+					<div class="item syy-count-con">
+						<div>
+							<h2>提现-完成</h2>
+							<p>2015-01-20</p>
+						</div>
+						<div class="syy-subMoney">-200.00</div>
+					</div>
+					<div class="item syy-count-con">
+						<div>
+							<h2>提现-完成</h2>
+							<p>2015-01-20</p>
+						</div>
+						<div class="syy-subMoney">-200.00</div>
+					</div>
+					<div class="item syy-count-con">
+					<div>
+						<h2>提现-完成</h2>
+						<p>2015-01-20</p>
+					</div>
+					<div class="syy-subMoney">-200.00</div>
+				</div>
+				</div>
+			</div>
+		</div>
+</ion-view>

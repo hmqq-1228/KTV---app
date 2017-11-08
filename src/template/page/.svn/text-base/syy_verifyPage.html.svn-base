@@ -1,0 +1,16 @@
+<ion-view>
+	
+	<ion-tabs class="tabs-top tabs-light tabs-color-active-royal syy-tabs">
+        <ion-tab title="序列号" href="#/syy_verify/syy_tabs1/seq">
+            <ion-nav-view name="seq"></ion-nav-view>
+        </ion-tab>
+        <ion-tab title="扫一扫" href="#/syy_verify/syy_tabs1/sao">
+            <ion-nav-view name="sao"></ion-nav-view>
+        </ion-tab>
+   </ion-tabs>
+</ion-view>	
+
+	
+
+	
+

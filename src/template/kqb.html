@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>卡券包</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/ionic.css">
+    <script src="js/ionic.bundle.js"></script>
+    <style>
+        body{
+            background-color: #f2f2f2;
+        }
+        .bar-header{
+            background: url("img/bg.png") no-repeat;
+            background-size: 100%;
+        }
+        .button.button-light.button-clear{
+            color:#fff;
+        }
+        .bar .title{
+            color:#fff;
+            font-size: 19px;
+        }
+        .kaquan{
+            width: 93%;
+            height:150px;
+            border-radius: 10px;
+            margin:10px auto;
+            background: url("img/bg2.fw.png") no-repeat #fff;
+            background-size: 150px 150px;
+            background-position: left top;
+            position: relative;
+        }
+        .hui{
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            line-height: 150px;
+            float: left;
+        }
+        .hui img{
+            margin-top: 50px;
+            width: 50px;
+        }
+        .infos{
+            float: left;
+            margin-left: 10px;
+        }
+        .infos h2{
+            margin-top: 20px;
+            color: #f15a5a;
+        }
+        .dh-red{
+            position: absolute;
+            top:0;
+            right: 0;
+            width:50px;
+        }
+        .my-tab{
+            width:85%;
+            height: 30px;
+            margin: 10px auto;
+        }
+        .my-tab .t1{
+            width: 50%;
+            background-color: #fff;
+            color: #663399;
+            text-align: center;
+            line-height: 30px;
+            float: left;
+        }
+        .my-tab .t1.active{
+            background-color: #663399;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="bar bar-header">
+        <button class="button  button-clear button-light">
+            <i class="icon ion-ios-arrow-back"></i>
+        </button>
+        <h1 class="title">卡券包</h1>
+    </div>
+    <div class="content has-header scroll scroll-content" style="overflow-y: scroll">
+        <div class="my-tab">
+            <div class="t1 active">可使用（2）</div>
+            <div class="t1">无可用（2）</div>
+        </div>
+       <div class="kaquan">
+           <div class="hui">
+               <img src="img/hui.fw.png">
+           </div>
+           <div class="infos">
+               <h2>满99减5</h2>
+               <p>使用范围：正大KTV设备公司</p>
+               <p>截止日期：2016.05.01</p>
+           </div>
+           <img src="img/dh-red.fw.png" alt="" class="dh-red">
+       </div>
+        <div class="kaquan">
+            <div class="hui">
+                <img src="img/hui.fw.png">
+            </div>
+            <div class="infos">
+                <h2>满99减5</h2>
+                <p>使用范围：正大KTV设备公司</p>
+                <p>截止日期：2016.05.01</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

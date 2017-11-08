@@ -1,0 +1,21 @@
+<div controller="cityCon">
+	<div class="modal index-city-modal">
+		<div class="myNav">
+			<div ng-repeat="abc in navABC">
+				<div ng-click="setIndex($index,abc)" class="abcIndex" ng-class="{'actived' : curIndex == $index}">{{abc}}</div>
+			</div>
+		</div>
+		<div class="bar bar-header bar-royal">
+			<button class="button button-clear" ng-click="closeModal()">
+				<i class="icon ion-ios-arrow-back" ></i>
+			</button>
+			<div class="title">请选择您的地址</div>
+		</div>
+		<ion-content class="has-header" on-scroll="scrollPosition()" delegate-handle="mainScroll">
+			<ion-list ng-repeat="a in address.citys">
+				<div class="item item-divider" ng-bind="a.key"></div>
+				<div class="item" ng-repeat="name in a.names" ng-bind="name"></div>
+			</ion-list>
+		</ion-content>
+	</div>
+</div>

@@ -1,0 +1,75 @@
+<div ng-controller="group_detailCtrl">
+    <ion-header-bar class="hzp-header">
+        <button class="button button-clear" ng-click="back()">
+            <i class="icon ion-ios-arrow-back light"></i>
+        </button>
+        <h1 class="title light">信息详情</h1>
+    </ion-header-bar>
+    <ion-content>
+        <ion-list>
+            <ion-item class="item-text-wrap">
+                <div class="row hzp-group-box1">
+                    <div class="col-20">
+                        <img src="img/hzp-img1-2.fw.png" class="hzp-tx" alt="">
+                    </div>
+                    <div class="col-60">
+                        <h2 class="hzp-nickname">落月摇情、</h2>
+                        <p class="hzp-time">6分钟前</p>
+                    </div>
+                </div>
+                <p class="hzp-conTxt">
+                    晚上7点，酒吧一条街麦嘎KTV808房间，有神秘惊喜，不见不散！我的微信号：wechat0000。
+                </p>
+                <div class="hzp-showImg">
+                    <img src="img/hzp-img1-1.fw.png" alt="">
+                    <img src="img/hzp-img1-3.fw.png" alt="">
+                    <img src="img/hzp-img1-4.fw.png" alt="">
+                </div>
+            </ion-item>
+        </ion-list>
+        <ion-list class="hzp-list-down">
+            <ion-item>
+                <i class="icon ion-ios-people-outline assertive hzp-icon-people"></i>
+                <span>已报名(2)</span>
+            </ion-item>
+            <ion-item>
+                <div class="row hzp-applied">
+                    <div class="col-10">
+                        <img src="img/hzp-img1-5.fw.png" alt="">
+                    </div>
+                    <div class="col-67 hzp-applied-name hzp-paddingTop">
+                        <span>失去方向的鱼</span>
+                    </div>
+                    <div class="col-20 hzp-paddingTop">
+                        <span>8分钟前</span>
+                    </div>
+                </div>
+                <p class="hzp-applied-text">
+                    加我一个！晚上8点左右会到！手机号：15032045678
+                </p>
+            </ion-item>
+            <ion-item>
+                <div class="row hzp-applied">
+                    <div class="col-10">
+                        <img src="img/hzp-img1-6.fw.png" alt="">
+                    </div>
+                    <div class="col-67 hzp-applied-name hzp-paddingTop">
+                        <span>会飞的鱼</span>
+                    </div>
+                    <div class="col-20 hzp-paddingTop">
+                        <span>15分钟前</span>
+                    </div>
+                </div>
+                <p class="hzp-applied-text">
+                    联系我！微信号：158633255665
+                </p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <ion-footer-bar class="hzp-footer">
+        <button class="button button-full hzp-footer-btn" ng-click="goState('apply')">
+            <i class="icon ion-ios-personadd-outline"></i>
+            我要报名
+        </button>
+    </ion-footer-bar>
+</div>

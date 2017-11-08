@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/ionic.min.css">
+    <style>
+        body{
+            background: none;
+            background-color: #f8f8f8;
+        }
+        .item-avatar>img:first-child{
+            min-width: 60px;
+            min-height: 60px;
+        }
+        .item h2 {
+            margin-left: 18px;
+        }
+        .item p{
+            margin-left: 18px;
+        }
+        textarea{
+            padding : 10px;
+        }
+        .list{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="bar bar-header">
+        <button class="button icon ion-ios-arrow-back button-clear" ng-click="back()"></button>
+        <h2 class="title">订单详情</h2>
+    </div>
+    <div class="content has-header scroll scroll-content" style="overflow-y: scroll">
+        <div class="list">
+            <div class="item item-avatar item-icon-right">
+                <img style="width: 60px" src="img/xyp-big-assets/ong.jpg" alt="">
+                <h2>麦霸量版式KTV6小时欢唱</h2>
+                <p>1张</p>
+                <h2><span>￥</span>29.9</h2>
+                <i class="icon">
+                    <img src="img/xyp-order_all-assets/big_two.png" style="width: 70%" alt="">
+                    <!--<img ng-src="{{item.stateUrl}}" style="width: 70%" alt="">-->
+                </i>
+            </div>
+        </div>
+        <div class="list">
+            <div class="item item-icon-left">
+                <h2 style="margin-left: -30px">整体评价</h2>
+                <i class="icon" style="margin-left: 90px">
+                    <img src="img/xyp-command-assets/star.png" style="width: 60%;" alt="">
+                </i>
+            </div>
+        </div>
+        <div class="list">
+            <textarea id="" cols="100%" rows="15" placeholder="玩的怎么样，和大家分享一下吧！"></textarea>
+        </div>
+    </div>
+</div>
+</body>
+</html>

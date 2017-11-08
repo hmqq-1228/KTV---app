@@ -1,0 +1,50 @@
+<div ng-controller="orderCon">
+	<div class="bar bar-header">
+		<button class="button button-clear button-color" ng-click="back()">
+			<i class="icon ion-ios-arrow-back"></i>
+		</button>
+		<h1 class="title">确认订单</h1>
+	</div>
+	<div class="list has-header">
+		<div class="item item-divider">
+		</div>
+		<div class="item">
+			麦嘎量贩式KTV158元套餐欢唱时段2选1<span class="right">￥158</span>
+		</div>
+		<div class="item">
+		数量
+			<span class="right">
+				<button class="button button-small grey" class="cal()">-</button>
+				<input type="text"class=" grey" value="1"/>
+				<button class="button button-small  grey" class="add()">+</button>
+			</span>
+		
+		</div>
+		<div class="item" ng-click="toCard()">
+		优惠券
+			<span class="right">
+				-5
+				<i class="icon ion-ios-arrow-forward margin10"></i>
+			</span>
+		</div>
+		<div class="item">
+		小计
+			<span class="right">
+				￥153
+			</span>
+		</div>
+		<div class="item item-divider">
+		</div>
+		<div class="item">
+		合计
+			<span class="right">
+				￥153
+			</span>
+		</div>
+		<div class="item item-divider">
+		</div>
+		<div class="item">
+		<button class="button button-block submitOrder">提交订单</button>
+		</div>
+	</div>
+</div>

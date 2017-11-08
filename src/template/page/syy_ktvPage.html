@@ -1,0 +1,105 @@
+<ion-view ng-controller="syy_indexCtrl">
+	<div class="bar bar-header" style="background:transparent">
+		<button class="button button-clear" ng-click="back()">
+			<i class="icon ion-ios-arrow-back"></i>
+		</button>
+		<h1 class="title">KTV团购商家</h1>
+	</div>
+	<div class="content scroll-content syy-content">
+		<div class="list syy-color">
+			<div class="syy-header">
+				<a href="#/syy_verify/syy_tabs1/seq">
+					<input type="text" placeholder="验证序列号" ng-focus="#/ktv/verify" />
+				</a>
+				<img src="img/syy-img/icon7.png" alt="" class="syy-ktv-code" />
+				<ul class="syy-ktv-ul">
+					<li>
+						<a href="#/syy_count">
+							<img src="img/syy-img/icon9.png" alt="" />
+							<span>账户金额&nbsp;￥888.00</span>
+						</a>
+					</li>
+					<li>
+						<a href="#/">
+							<img src="img/syy-img/icon8.png" alt="" />
+							<span>今日订单&nbsp;&nbsp;2</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="syy-padding">
+			<div class="list">
+				<a href="#/syy_order/syy_all" class="item syy-ktv-item item-avatar item-icon-right">
+					<img src="img/syy-img/icon10.png" alt="" />
+					<h2>订单管理</h2>
+					<span class="item-note">查看全部订单</span>
+					<i class="icon ion-ios-arrow-right"></i>
+				</a>
+				<div class="item syy-ktv-item syy-ktv-item2">
+					<ul class="syy-ktv-flex">
+						<li>
+							<a href="#/ktv/order/wait">
+								<img src="img/syy-img/icon11.png" alt="" />
+								<span>待验证</span>
+							</a>
+						</li>
+						<li>
+							<a href="#/ktv/order/waitV">
+								<img src="img/syy-img/icon11.png" alt="" />
+								<span>已验证</span>
+							</a>
+						</li>
+						<li>
+							<a href="#/ktv/order/over">
+								<img src="img/syy-img/icon12.png" alt="" />
+								<span>已完成</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<div class="list">
+			<div class="item item-icon-right syy-item item-avatar">
+				<img src="img/syy-img/icon13.png" />
+				<h2>购买设备</h2>
+				<i class="icon ion-ios-arrow-right"></i>
+			</div>
+			<a href="#/syy_myCard" class="item item-icon-right syy-item item-avatar">
+				<img src="img/syy-img/icon14.png" alt="" />
+				<h2>我的银行卡</h2>
+				<i class="icon ion-ios-arrow-right"></i>
+			</a>
+			<a href="#/syy_myAddress" class="item item-icon-right syy-item item-avatar">
+				<img src="img/syy-img/icon15.png" alt="" />
+				<h2>我的店址</h2>
+				<i class="icon ion-ios-arrow-right"></i>
+			</a>
+		</div>
+	</div>
+	<div class="bar bar-footer syy-footer">
+		<ul class="syy-nav">
+			<li>
+				<a href="javascript:;" class="active">
+					<img src="img/syy-img/nav1-1.png" alt="" />
+					<span>首页</span>
+				</a>
+			</li>
+			<li>
+				<a href="#/ktv/message">
+					<img src="img/syy-img/nav2-1.png" alt="" />
+					<span>消息</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img src="img/syy-img/nav3.png" alt="" />
+					<span>购物车</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+</ion-view>

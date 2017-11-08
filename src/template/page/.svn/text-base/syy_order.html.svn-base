@@ -1,0 +1,22 @@
+<div ng-controller="syy_order">
+	<div class="bar bar-header">
+		<button class="button button-clear" ng-click="back()">
+			<i class="icon ion-ios-arrow-back"></i>
+		</button>
+		<h1 class="title">订单管理</h1>
+	</div>
+	<ion-tabs class="tabs-top tabs-color-active-royal tabs-background-light">
+		<ion-tab title="全部" href="#/syy_order/syy_all">
+			<ion-nav-view name="syy_all"></ion-nav-view>
+		</ion-tab>
+		<ion-tab title="待验证" href="#/syy_order/syy_wait">
+			<ion-nav-view name="syy_wait"></ion-nav-view>
+		</ion-tab>
+		<ion-tab title="已验证" href="#/syy_order/syy_waitV">
+			<ion-nav-view name="syy_waitV"></ion-nav-view>
+		</ion-tab>
+		<ion-tab title="已完成" href="#/syy_order/syy_over">
+			<ion-nav-view name="syy_over"></ion-nav-view>
+		</ion-tab>
+	</ion-tabs>
+</div>

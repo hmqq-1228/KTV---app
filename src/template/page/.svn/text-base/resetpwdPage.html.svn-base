@@ -1,0 +1,22 @@
+<div class="background">
+
+	<div class="content scroll scroll-content" style="overflow-y:scroll">
+		<div class="padding">
+			<ion-list class="list list-inset">
+				<ion-item class="item item-input">
+					<input type="text" placeholder="请输入手机号" id="telphone" />
+				</ion-item>
+				<ion-item class="item item-input item-button-right">
+					<input type="text" placeholder="请输入验证码" id="code" />
+					<button class="button button-clear button-royal" id="getCode">获取验证码</button>
+				</ion-item>
+				<ion-item class="item item-input">
+					<input type="password" placeholder="请输入密码" id="pwd" />
+				</ion-item>
+				<ion-item class="item item-input item-royal">
+					<button class="button button-clear button-light" id="sub">提交</button>
+				</ion-item>
+			</ion-list>
+		</div>
+	</div>
+</div>

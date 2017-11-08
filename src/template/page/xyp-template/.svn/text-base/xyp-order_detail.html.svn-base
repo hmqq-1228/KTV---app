@@ -1,0 +1,50 @@
+
+    <style>
+        body{
+            background: none;
+        }
+        .item-avatar>img:first-child{
+            min-width: 60px;
+            min-height: 60px;
+        }
+        .item h2 {
+            margin-left: 18px;
+        }
+        .item p{
+            margin-left: 18px;
+        }
+    </style>
+    <div ng-controller="detailCon">
+        <div class="bar bar-header">
+            <button class="button icon ion-ios-arrow-back button-clear" ng-click="back()"></button>
+            <h2 class="title">订单详情</h2>
+        </div>
+        <div class="content has-header scroll scroll-content" style="overflow-y: scroll">
+            <div class="list">
+                <div class="item item-avatar item-icon-right">
+                    <img style="width: 60px" src="img/xyp-big-assets/ong.jpg" alt="">
+                    <h2>{{name}}</h2>
+                    <p>{{count + "张"}}</p>
+                    <h2><span>￥</span>29.9</h2>
+                    <i class="icon">
+                        <img src="img/xyp-order_all-assets/big_two.png" style="width: 70%" alt="">
+                        <!--<img ng-src="{{item.stateUrl}}" style="width: 70%" alt="">-->
+                    </i>
+                </div>
+            </div>
+            <button class="button button-block button-royal" ng-click="goState('commint_order',null)">立即付款</button>
+            <div class="list">
+                <div class="item item-icon-left">
+                    <i class="icon">
+                        <img src="img/xyp-big-assets/detail.png" style="width: 60%;" alt="">
+                    </i>
+                    <h2 style="margin-left: -10px">订单详情</h2>
+                </div>
+                <div class="item">
+                    <p style="margin-left: 0">订单编号：15225958097187391</p>
+                    <p style="margin-left: 0">下单时间：2016-08-09</p>
+                    <p>{{item.stateUrl}}</p>
+                </div>
+            </div>
+        </div>
+    </div>

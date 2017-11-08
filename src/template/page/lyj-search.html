@@ -1,0 +1,30 @@
+<div ng-controller="lyjsearchCtrl">
+<div class="search">
+	<div class="bar bar-header lyj-top">
+	<label class="item-input-wrapper">
+		<i class="icon ion-search placeholder-icon"></i>
+		<input type="text" placeholder="请输入器材名" />		
+	</label>
+	<button class="button button-clear button-light button-small" ng-click="back()">取消</button>
+</div>
+<div class="content has-header scroll scroll-content" style="overflow-y: scroll;" ng-if="page==1">
+	<a class="item item-divider"><i class="icon ion-left ion-ios-clock-outline"></i>搜索历史</a>
+	<ul class="list" ng-repeat="search in searches">
+		<li href="#" class="item item-icon-right ">
+			{{search.sc}}
+			<i class="icon ion-ios-arrow-forward lyj-color"></i>
+		</li>
+	</ul>	
+	<a href="javasrcipt:;" class="item text-center" ng-click="del()"><i class="icon ion-trash-a"></i>清空搜索记录</a>									
+</div>
+<div class="content has-header scroll scroll-content" style="overflow-y: scroll;" ng-if="page==2">
+			<div class="lyj-image text-center">
+				<img src="img/lyj-voice.png" alt=""/><br/>
+				没有任何搜索历史！
+			</div>			
+</div>
+</div>
+			
+</div>
+		
+	

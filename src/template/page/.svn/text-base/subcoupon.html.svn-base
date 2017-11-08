@@ -1,0 +1,11 @@
+<ion-tabs class="tabs-striped tabs-top tabs-hzp tabs-color-active-royal">
+    <ion-tab title="未使用" href="#coupon/subcoupon/no_used">
+        <ion-nav-view name="no_used"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="已使用" href="#coupon/subcoupon/used">
+        <ion-nav-view name="used"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="已过期" href="#coupon/subcoupon/outtime">
+        <ion-nav-view name="outtime"></ion-nav-view>
+    </ion-tab>
+</ion-tabs>

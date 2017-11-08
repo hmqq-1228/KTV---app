@@ -1,0 +1,70 @@
+
+<div ng-controller="ticketsListCtrl">
+    <ion-header-bar class="hzp-yl-header">
+        <button class="button button-clear" ng-click="back()">
+            <i class="icon ion-ios-arrow-back light"></i>
+        </button>
+        <h1 class="title light">门票列表</h1>
+    </ion-header-bar>
+    <ion-content>
+        <ion-item class="hzp-list-item">
+            <div class="row hzp-list">
+                <div class="col">
+                    <button class="button button-clear">全部</button>
+                </div>
+                <div class="col">
+                    <button class="button button-clear">
+                        价格排序
+                        <i class="icon ion-android-arrow-dropdown"></i>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="button button-clear">销量优先</button>
+                </div>
+            </div>
+        </ion-item>
+        <ion-list>
+            <ion-item class="item-text-wrap item-thumbnail-left hzp-item-list" ng-click="goState('goods_details.tabs')">
+                <img src="img/hzp-img3-1.png" alt="">
+                <h2 class="hzp-list-title">蔡依林2016PLAY世界巡回演唱会 - 郑州站</h2>
+                <p>
+                    <span class="hzp-price">￥<span class="hzp-price-big">290</span></span>
+                    <span class="hzp-buied-num">已售123</span>
+                </p>
+            </ion-item>
+            <ion-item class="item-text-wrap item-thumbnail-left"  ng-click="goState('goods_details.tabs.parameter')">
+                <img src="img/hzp-img3-2.png" alt="">
+                <h2 class="hzp-list-title">2016【看见 李健】 世界巡回演唱会 郑州站 - 中国梦·梦之蓝 呈现</h2>
+                <p>
+                    <span class="hzp-price">￥<span class="hzp-price-big">380</span></span>
+                    <span class="hzp-buied-num">已售123</span>
+                </p>
+            </ion-item>
+            <ion-item class="item-text-wrap item-thumbnail-left"  ng-click="goState('goods_details.tabs.parameter')">
+                <img src="img/hzp-img3-3.png" alt="">
+                <h2 class="hzp-list-title">梁静茹·你的名字是爱情2016世界巡回演唱会郑州站</h2>
+                <p>
+                    <span class="hzp-price">￥<span class="hzp-price-big">299</span></span>
+                    <span class="hzp-buied-num">已售123</span>
+                </p>
+            </ion-item>
+            <ion-item class="item-text-wrap item-thumbnail-left"  ng-click="goState('goods_details.tabs.parameter')">
+                <img src="img/hzp-img3-4.png" alt="">
+                <h2 class="hzp-list-title">永丰乐城·周杰伦2016 “地球最强” 世界巡回演唱会郑州站</h2>
+                <p>
+                    <span class="hzp-price">￥<span class="hzp-price-big">280</span></span>
+                    <span class="hzp-buied-num">已售123</span>
+                </p>
+            </ion-item>
+            <ion-item class="item-text-wrap item-thumbnail-left"  ng-click="goState('goods_details.tabs.parameter')">
+                <img src="img/hzp-img3-5.png" alt="">
+                <h2 class="hzp-list-title">2016友情岁月演唱会郑州站</h2>
+                <p>
+                    <span class="hzp-price">￥<span class="hzp-price-big">199</span></span>
+                    <span class="hzp-buied-num">已售123</span>
+                </p>
+            </ion-item>
+
+        </ion-list>
+    </ion-content>
+</div>

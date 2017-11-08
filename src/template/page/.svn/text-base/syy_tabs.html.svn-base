@@ -1,0 +1,23 @@
+<ion-tabs class="tabs-icon-top syy-tabs tabs-color-active-positive">
+    <ion-tab title="首页"
+             icon-on="ion-syy-home"
+             icon-off="ion-syy-home-outline"
+             href="#/syy_tabs/syy_ktv"
+    >
+        <ion-nav-view name="syy_ktv"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="消息"
+             icon-on="ion-syy-message"
+             icon-off="ion-syy-message-outline"
+             href="#/syy_tabs/syy_message"
+    >
+        <ion-nav-view name="syy_message"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="购物车"
+             icon-on="ion-syy-cart"
+             icon-off="ion-syy-cart"
+             href="#/tabs/person"
+    >
+        <ion-nav-view name="person"></ion-nav-view>
+    </ion-tab>
+</ion-tabs>

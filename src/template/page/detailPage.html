@@ -1,0 +1,21 @@
+<div ng-controller="detailCon">
+    <div class="bar bar-header bar-positive">
+    	<button class="button button-clear button-color" ng-click="back()">
+			<i class="icon ion-ios-arrow-back"></i>
+		</button>
+        <h2 class="title">{{name}}</h2>
+    </div>
+    <ion-content class="has-header">
+    	<ion-list class="list chatTime">
+    		<ion-item class="item">{{time}}</ion-item>
+    		<ion-item class="item item-avatar pictures">
+    			？？？？？<img src="img/zyy_img7.fw.png" alt="" />
+    		</ion-item>
+    		<ion-item class="item item-avatar mes">
+    			<img ng-src="{{photo}}" alt="" />
+    			<span>{{value}}</span>
+    		</ion-item>
+    	</ion-list>
+    </ion-content>
+
+</div>

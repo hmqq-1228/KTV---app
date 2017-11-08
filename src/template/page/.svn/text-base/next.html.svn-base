@@ -1,0 +1,38 @@
+
+<div ng-controller="nextCtrl">
+    <ion-header-bar class="hzp-yl-header">
+        <button class="button button-clear" ng-click="back()">
+            <i class="icon ion-ios-arrow-back light"></i>
+        </button>
+        <h1 class="title light">下一站</h1>
+
+    </ion-header-bar>
+    <ion-content class="hzp-poster-content hzp-next-content">
+        <ion-list class="text-center">
+            <ion-item class="hzp-padding">
+                <div class="row">
+                    <div class="col">
+                        <img src="img/hzp-img7-1.fw.png" alt="">
+                        <p>打车回家</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/hzp-img7-2.fw.png" alt="">
+                        <p>附近酒店</p>
+                    </div>
+                </div>
+            </ion-item>
+            <ion-item class="hzp-padding">
+                <div class="row">
+                    <div class="col">
+                        <img src="img/hzp-img7-3.fw.png" alt="">
+                        <p>需要代驾</p>
+                    </div>
+                    <div class="col" ng-click="goState('food')">
+                        <img src="img/hzp-img7-4.fw.png" alt="">
+                        <p>附近夜宵</p>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</div>

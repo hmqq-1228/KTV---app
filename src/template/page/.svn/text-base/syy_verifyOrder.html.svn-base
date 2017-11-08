@@ -1,0 +1,11 @@
+<ion-view>
+<div>
+	<div class="bar bar-header">
+		<button class="button button-clear" ng-click="back()">
+				<i class="icon ion-ios-arrow-back"></i>
+			</button>
+		<h1 class="title">验证订单</h1>
+	</div>
+	<ion-nav-view></ion-nav-view>
+</div>
+</ion-view>

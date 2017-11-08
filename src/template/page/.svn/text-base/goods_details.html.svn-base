@@ -1,0 +1,58 @@
+
+<div ng-controller="goodsCtrl">
+    <ion-content class="hzp-goods-con">
+
+        <button class="button hzp-goods-btn hzp-btn1" ng-click="back()">
+            <i class="icon ion-ios-arrow-back light"></i>
+        </button>
+        <button class="button hzp-goods-btn hzp-btn2">
+            <i class="icon ion-android-share-alt light"></i>
+        </button>
+        <ion-slide-box class="hzp-slide">
+            <ion-slide>
+                <img src="img/hzp-img4-1.fw.png" alt="">
+            </ion-slide>
+            <ion-slide>
+                <img src="img/hzp-img4-1.fw.png" alt="">
+            </ion-slide>
+            <ion-slide>
+                <img src="img/hzp-img4-1.fw.png" alt="">
+            </ion-slide>
+        </ion-slide-box>
+        <ion-list class="hzp-goods-totop">
+            <ion-item>
+                <div class="row">
+                    <h3 class="col-90">蔡依林2016PLAY世界巡回演唱会 - 郑州站</h3>
+                    <div class="col-10 text-right hzp-favorite-img">
+                        <img src="img/hzp-favorite.png" alt="">
+                    </div>
+                </div>
+                <p class="hzp-goods-price">
+                    ￥<span>290</span>
+                </p>
+            </ion-item>
+        </ion-list>
+        <ion-nav-view class="hzp-tabs-view">
+
+        </ion-nav-view>
+    </ion-content>
+    <ion-footer-bar class="hzp-goods-foot">
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <img src="img/hzp-icon-car.fw.png" alt="">
+                        <p>购物车</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/hzp-icon-msg.fw.png" alt="">
+                        <p>客服</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <button ng-click="addCar()" class="button button-full button-royal">加入购物车</button>
+            </div>
+        </div>
+    </ion-footer-bar>
+</div>

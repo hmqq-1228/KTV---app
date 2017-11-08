@@ -1,0 +1,24 @@
+
+<div ng-controller="posterDetailCtrl">
+    <ion-header-bar class="hzp-yl-header">
+        <button class="button button-clear" ng-click="back()">
+            <i class="icon ion-ios-arrow-back light"></i>
+        </button>
+        <h1 class="title light">详情</h1>
+    </ion-header-bar>
+
+    <ion-content class="hzp-poster-d">
+        <ion-list>
+            <ion-item class="hzp-padding item-text-wrap">
+                <h2 class="hzp-post-d-title">苏格缪斯KTV（农业路店）</h2>
+                <p>
+                    本公司主要业务包括业务管理，KTV娱乐酒吧夜店管理。本公司包括上百位高学历的管理人才，
+                    曾管理过糖果KTV，麦克风KTV，如家郑州二七店，策划KTV，好听KTV，算是KTV，咋整KTV，
+                    缪斯KTV。呈请客户到公司了解。
+                </p>
+                <img class="full-image" src="img/hzp-img6-3.fw.png" alt="">
+                <img class="full-image" src="img/hzp-img6-4.fw.png" alt="">
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</div>

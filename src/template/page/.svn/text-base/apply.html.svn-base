@@ -1,0 +1,18 @@
+<div ng-controller="applyCtrl">
+    <ion-header-bar class="hzp-header">
+        <button class="button button-clear" ng-click="back()">
+            <i class="icon ion-ios-arrow-back light"></i>
+        </button>
+        <h1 class="title light">我要报名</h1>
+        <button class="button button-clear">
+            <span class="light">发送</span>
+        </button>
+    </ion-header-bar>
+    <ion-content>
+        <ion-list class="list-inset hzp-list-textarea">
+            <ion-item class="item-input hzp-item-textarea">
+                <textarea name="" id="" cols="30" rows="10"  placeholder="留下联系方式吧！"></textarea>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</div>

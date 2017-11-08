@@ -1,0 +1,66 @@
+<div ng-controller="infoCon">
+	<div class="bar bar-header">
+		<button class="button icon ion-ios-arrow-back button-clear" ng-click="back()"></button>
+		<h2 class="title">修改密码</h2>
+		<button class="button button-clear">完成</button>
+	</div>
+	<div class="content has-header scroll scroll-content" style="overflow-y: scroll">
+		<div class="list">
+			<div class="item item-avatar-right" ng-click="openModal()">
+				<img src="img/xyp-person_center-assets/panda.png">
+				<h2 class="padding-vertical">头像</h2>
+			</div>
+			<div class="item">
+				<span class="col-10">昵称</span>
+				<span class="col-25 col-offset-66">登录名称</span>
+			</div>
+			<div class="item" ng-click="changePsd()">
+				<span class="col-25">登录密码</span>
+				<span class="col-10 col-offset-66">修改</span>
+			</div>
+		</div>
+	</div>
+</div>
+<!--<style>
+    .loading-container .loading{
+        position: fixed;
+        top: 43px;
+        width: 100%;
+        background-color: rgba(200,80,0,.7);
+    }
+    @media (max-width: 680px){
+        .modal {
+            top: 50%;
+            left: 55%;
+            min-height: 200px;
+            width:230px;
+            height:150px;
+            border-radius: 12px;
+            overflow: hidden;
+            transform:translate(-135px,-85px) !important;
+            background-color: rgba(102,51,153,0.8);
+
+        }
+        .modal-backdrop-bg {
+            -webkit-transition: opacity 300ms ease-in-out;
+            transition: opacity 300ms ease-in-out;
+            background-color: #000;
+            opacity: .5;
+        }
+    }
+    .modal-body{ height: 190px;}
+    .modal-footer{ padding: 0; border-bottom: none;}
+    .modal-footer .button{ color: dodgerblue; padding: 0; margin: 0;}
+    .item-body p{
+        margin: 0;
+    }
+    .button{
+        height: 30px;
+        line-height: 30px;
+        min-height: 30px;
+    }
+    .button.button-block{
+        margin: 0;
+        background-color: #fff;
+    }
+</style>-->

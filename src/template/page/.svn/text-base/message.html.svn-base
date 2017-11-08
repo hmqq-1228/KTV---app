@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html ng-app="myApp"
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		
+		<title></title>
+		<link rel="stylesheet" href="css/ionic.css" />
+		<script src="js/ionic.bundle.js"></script>
+		<style>
+		body{
+			background-color: #f2f2f2;
+			
+		}
+		h1{
+			color: #FFFFFF;
+		}
+			.bar-header{
+			background: url(img/bg2.fw.png);
+		}
+		.button-clear.button-color{
+			color: #FFFFFF;
+		}
+		</style>
+	</head>
+	<body ng-controller="myCtrl">
+		<div class="bar bar-header ">
+			<button class="button button-clear button-color">
+				<i class="icon ion-ios-arrow-back"></i>
+			</button>
+			<h1 class="title">消息</h1>
+		</div>	
+		
+		<div class="content has-header has-footer" >
+			<div class="list ">
+				<div class="item item-avatar" ng-repeat="u in users">
+					<img ng-src="{{u.photo}}" />
+					<p>{{u.name}}</p>
+					<p>{{u.value}}</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bar-footer">
+			<ion-tabs class="tabs-icon-top tabs-color-active-assertive">
+			<ion-tab
+				title="首页"
+				icon-on="ion-ios-home"
+				icon-off="ion-ios-home-outline"
+				href="#tabs/home"
+				>
+				
+			</ion-tab>
+			<ion-tab
+				title="消息"
+				icon-on="ion-ios-bell"
+				icon-off="ion-ios-bell-outline"
+				href="#tabs/produce"
+				>
+				
+			</ion-tab>
+			<ion-tab
+				title="购物车"
+				icon-on="ion-ios-cart"
+				icon-off="ion-ios-cart-outline"
+				href="#tabs/car"
+				>
+				
+			</ion-tab>
+		</ion-tabs>
+		</div>
+		
+		
+		<script>
+			myApp = angular.module("myApp",["ionic"]);
+			myApp.controller("myCtrl",["$scope",function($scope) {
+				$scope.users = [
+					{id:1,name:"落月摇情",value:"您好，有什么可以帮助您的？ ",photo:"img/girl.fw.png"},
+					{id:2,name:"周大千  ",value:"那个单子还不错，你也来看看吧？  ",photo:"img/boy.fw.png"},
+					{id:3,name:"歌歌歌歌歌手  ",value:"好的，我会尽快发货的！  ",photo:"img/girl-2.fw.png"},
+					{id:5,name:"约K联系13535545678",value:"好的！  ",photo:"img/girl-1.fw.png"},
+					{id:6,name:"管她有多美   ",value:"你说的这俩种都有，价格也是最低了！",photo:"img/boy-1.fw.png"},
+				]
+			}])
+		</script>
+	</body>
+</html>
